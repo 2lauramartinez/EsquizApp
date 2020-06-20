@@ -1,0 +1,25 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Servidor de la herramienta EsquizApp (TFG-Laura)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/2lauramartinez/EsquizApp.git"
+  },
+  "keywords": [
+    "esquizofrenia",
+    "TFG",
+    "Telemedicina"
+  ],
+  "author": "Laura Martínez Mira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
